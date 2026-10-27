@@ -3,6 +3,7 @@ import ModalVideo from '@/components/modal-video'
 
 import React, { useState } from "react";
 import { useEffect, useRef } from "react";
+import { withBase } from '@/lib/base-path'
 
 
 export default function Hero() {
@@ -36,7 +37,7 @@ export default function Hero() {
   // }, []);
 
   return (
-    <section className='pattern_1'>
+    <section className=''>
       <link href='https://fonts.googleapis.com/css?family=Rakkas' rel='stylesheet'></link>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
@@ -54,7 +55,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="" data-aos="fade-up">
-            <img src="images/me.jpg" className="rounded-3xl w-48 h-48" alt="My Photo" />
+            <img src={withBase('/images/me.jpg')} className="rounded-3xl w-48 h-48" alt="My Photo" />
           </div>
         </div>
       </div>

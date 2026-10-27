@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "fetch-posts": "node scripts/fetch-medium.mjs",
+    "predev": "npm run fetch-posts",
+    "prebuild": "npm run fetch-posts",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

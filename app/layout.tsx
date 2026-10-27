@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* ganti background */}
-      <body className={`${inter.variable} ${architects_daughter.variable} pattern_1 font-inter antialiased bg-themecol-100 text-gray-200 tracking-tight`}>
+      <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-themecol-100 text-gray-200 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />
           {children}

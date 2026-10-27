@@ -42,7 +42,7 @@ export default function MobileMenu() {
       >
         <span className="sr-only">Menu</span>
         <svg
-          className="w-6 h-6 fill-current text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out"
+          className="w-6 h-6 fill-current text-black hover:text-themecol-200 transition duration-150 ease-in-out"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -59,29 +59,27 @@ export default function MobileMenu() {
         className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
         style={mobileNavOpen ? { maxHeight: mobileNav.current?.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
       >
-        <ul className="bg-gray-800 px-4 py-2">
+        <ul className="bg-white/95 rounded-lg shadow-lg ring-1 ring-black/5 px-4 py-2">
           <li>
-            <Link href="/education" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-              Education
-            </Link>
-          </li>
-          <li>
-            <Link href="/signin" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+            <Link href="/blog" className="flex font-medium w-full text-black hover:text-themecol-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Blog
             </Link>
           </li>
           <li>
-            <Link href="/signin" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-              Personal
+            <Link href="/projects" className="flex font-medium w-full text-black hover:text-themecol-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+              Projects
             </Link>
           </li>
           <li>
-            <Link
-              href="/signup"
-              className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
+            <a
+              href="https://www.linkedin.com/in/israhman/"
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium w-full inline-flex items-center justify-center px-4 py-2 my-2 rounded-md text-white bg-themecol-200 hover:bg-themecol-300 transition duration-150 ease-in-out"
+              onClick={() => setMobileNavOpen(false)}
             >
               Contact
-            </Link>
+            </a>
           </li>
         </ul>
       </nav>
