@@ -50,7 +50,7 @@ export default function Hero() {
             <div className="text-black Rakkas">
             <h1 className="h1 mb-4 Rakkas" data-aos="fade-up">Hello!</h1>
               <p className="text-xl " data-aos="fade-up" data-aos-delay="200">My name is Ilham.</p>
-              <p className="text-xl " data-aos="fade-up" data-aos-delay="200">Indonesian Student pursuing Business Major at HKUST. </p>
+              <p className="text-xl " data-aos="fade-up" data-aos-delay="200">Indonesian studied Business at HKUST.</p>
               <p className="text-xl mb-8" data-aos="fade-up" data-aos-delay="200">I love to share my things here.</p>
             </div>
           </div>
