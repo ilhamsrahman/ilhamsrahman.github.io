@@ -8,8 +8,8 @@ export default function Banner() {
   return (
     <>
       {bannerOpen && (
-        <div className="fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-50">
-          <div className="bg-amber-100 text-slate-50 text-sm p-3 md:rounded shadow-lg flex justify-between">
+        <div className="fixed right-4 bottom-[calc(1rem+env(safe-area-inset-bottom))] md:bottom-8 md:right-12 z-50">
+          <div className="bg-amber-100 text-sm pl-4 pr-3 py-2 md:p-3 rounded-full md:rounded shadow-lg ring-1 ring-black/5 flex items-center">
             <div className="text-slate-500 inline-flex">
               <a
                 className="font-medium hover:underline text-sky-800"
@@ -17,7 +17,7 @@ export default function Banner() {
                 target="_blank"
                 rel="noreferrer"
               >
-                See me <span className="hidden sm:inline"> on LinkedIn</span>
+                See me on LinkedIn
               </a>{' '}
               {/* <img src="/images/pngegg.png" className="w-5 h-5" alt="Logo"/> */}
             </div>

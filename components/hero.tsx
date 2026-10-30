@@ -44,8 +44,8 @@ export default function Hero() {
         
 
         {/* Hero content */}
-        <div className="relative pt-32 pb-10 md:pt-40 md:pb-16 flex flex-row">
-          <div className="basis-3/4">
+        <div className="relative pt-28 pb-4 md:pt-40 md:pb-16 flex flex-col-reverse md:flex-row md:items-center gap-6 md:gap-8">
+          <div className="md:basis-3/4">
 
             <div className="text-black Rakkas">
             <h1 className="h1 mb-4 Rakkas" data-aos="fade-up">Hello!</h1>
@@ -54,8 +54,8 @@ export default function Hero() {
               <p className="text-xl mb-8" data-aos="fade-up" data-aos-delay="200">I love to share my things here.</p>
             </div>
           </div>
-          <div className="" data-aos="fade-up">
-            <img src={withBase('/images/me.jpg')} className="rounded-3xl w-48 h-48" alt="My Photo" />
+          <div className="shrink-0" data-aos="fade-up">
+            <img src={withBase('/images/me.jpg')} className="rounded-3xl w-32 h-32 md:w-48 md:h-48 object-cover" alt="My Photo" />
           </div>
         </div>
       </div>
