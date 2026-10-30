@@ -44,18 +44,22 @@ export default function Hero() {
         
 
         {/* Hero content */}
-        <div className="relative pt-28 pb-4 md:pt-40 md:pb-16 flex flex-col-reverse md:flex-row md:items-center gap-6 md:gap-8">
+        <div className="relative pt-28 pb-4 md:pt-40 md:pb-16 flex flex-col md:flex-row md:items-center gap-6 md:gap-8">
           <div className="md:basis-3/4">
 
             <div className="text-black Rakkas">
-            <h1 className="h1 mb-4 Rakkas" data-aos="fade-up">Hello!</h1>
+            <div className="flex items-center justify-between gap-4 mb-4 md:block md:mb-0">
+              <h1 className="h1 md:mb-4 Rakkas" data-aos="fade-up">Hello!</h1>
+              {/* Small round photo next to "Hello!" on phones */}
+              <img src={withBase('/images/me.jpg')} className="md:hidden w-20 h-20 shrink-0 rounded-full object-cover ring-[3px] ring-white" alt="My Photo" />
+            </div>
               <p className="text-xl " data-aos="fade-up" data-aos-delay="200">My name is Ilham.</p>
               <p className="text-xl " data-aos="fade-up" data-aos-delay="200">Indonesian studied Business at HKUST.</p>
               <p className="text-xl mb-8" data-aos="fade-up" data-aos-delay="200">I love to share my things here.</p>
             </div>
           </div>
-          <div className="shrink-0" data-aos="fade-up">
-            <img src={withBase('/images/me.jpg')} className="rounded-3xl w-32 h-32 md:w-48 md:h-48 object-cover" alt="My Photo" />
+          <div className="hidden md:block shrink-0" data-aos="fade-up">
+            <img src={withBase('/images/me.jpg')} className="w-48 h-48 rounded-full object-cover ring-4 ring-white shadow-xl" alt="My Photo" />
           </div>
         </div>
       </div>
