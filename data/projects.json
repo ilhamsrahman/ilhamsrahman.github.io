@@ -12,6 +12,18 @@
     ]
   },
   {
+    "title": "AWS Cloud Project",
+    "link": "https://github.com/ilhamsrahman/aws_project",
+    "date": "2026",
+    "image": null,
+    "description": "A learning and career-guidance platform with free courses and job listings. React front end on Vercel, with a serverless AWS back end: Lambda (Python), DynamoDB, S3, API Gateway and CloudFront for low-latency video streaming.",
+    "tags": [
+      "AWS",
+      "React",
+      "Serverless"
+    ]
+  },
+  {
     "title": "Search Engine in Java",
     "link": "https://github.com/ilhamsrahman/search_engine_java",
     "image": null,
