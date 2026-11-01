@@ -1,24 +1,47 @@
 [
   {
+    "title": "OpenBB Indonesia",
+    "link": "https://github.com/ilhamsrahman/openbb-indonesia",
+    "date": "2026",
+    "image": null,
+    "description": "A custom OpenBB Workspace backend for the Indonesian market: 21 interactive widgets built on KSEI ownership data, IDX prices and the retail SBN bond yield curve, plus a portfolio tracker that benchmarks a stock and bond portfolio against IHSG.",
+    "tags": [
+      "Python",
+      "OpenBB",
+      "Finance"
+    ]
+  },
+  {
     "title": "Search Engine in Java",
     "link": "https://github.com/ilhamsrahman/search_engine_java",
     "image": null,
     "description": "A web search engine built for HKUST COMP4321 (group project). It crawls pages, removes stopwords, applies Porter stemming, builds forward and inverted indexes, and ranks results with TF-IDF and cosine similarity through a JSP search page.",
-    "tags": ["Java", "Information Retrieval", "JSP"]
+    "tags": [
+      "Java",
+      "Information Retrieval",
+      "JSP"
+    ]
   },
   {
     "title": "Tableau Projects",
     "link": "https://drive.google.com/drive/folders/1klnICD8zx5sTc4uu-uXXLtQoyqo6UNxm?usp=sharing",
     "image": null,
     "description": "Data visualisation work built in Tableau.",
-    "tags": ["Tableau", "Data Visualisation"]
+    "tags": [
+      "Tableau",
+      "Data Visualisation"
+    ]
   },
   {
     "title": "Excel VBA Projects",
     "link": "https://drive.google.com/drive/folders/1aMuGJCzlpCHmg8Y9C0QTmYfVu4Qg7iuU",
     "image": null,
     "description": "Spreadsheet automation and tools written in VBA.",
-    "tags": ["VBA", "Excel", "Automation"]
+    "tags": [
+      "VBA",
+      "Excel",
+      "Automation"
+    ]
   },
   {
     "title": "Personal Website",
@@ -26,6 +49,10 @@
     "date": "2024",
     "image": null,
     "description": "This site. Built with Next.js and Tailwind CSS, hosted on GitHub Pages, with blog posts synced automatically from Medium.",
-    "tags": ["Next.js", "Tailwind CSS", "TypeScript"]
+    "tags": [
+      "Next.js",
+      "Tailwind CSS",
+      "TypeScript"
+    ]
   }
 ]
