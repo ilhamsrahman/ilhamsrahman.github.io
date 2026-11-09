@@ -2,7 +2,6 @@
   {
     "title": "OpenBB Indonesia",
     "link": "https://github.com/ilhamsrahman/openbb-indonesia",
-    "date": "2026",
     "image": null,
     "description": "A custom OpenBB Workspace backend for the Indonesian market: 21 interactive widgets built on KSEI ownership data, IDX prices and the retail SBN bond yield curve, plus a portfolio tracker that benchmarks a stock and bond portfolio against IHSG.",
     "tags": [
@@ -14,7 +13,6 @@
   {
     "title": "AWS Cloud Project",
     "link": "https://github.com/ilhamsrahman/aws_project",
-    "date": "2026",
     "image": null,
     "description": "A learning and career-guidance platform with free courses and job listings. React front end on Vercel, with a serverless AWS back end: Lambda (Python), DynamoDB, S3, API Gateway and CloudFront for low-latency video streaming.",
     "tags": [
@@ -58,7 +56,6 @@
   {
     "title": "Personal Website",
     "link": "https://github.com/ilhamsrahman/ilhamsrahman.github.io",
-    "date": "2024",
     "image": null,
     "description": "This site. Built with Next.js and Tailwind CSS, hosted on GitHub Pages, with blog posts synced automatically from Medium.",
     "tags": [

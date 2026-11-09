@@ -58,7 +58,6 @@ export default function Home() {
             title={project.title}
             text={project.description}
             image={project.image}
-            date={project.date}
             tags={project.tags}
             cta="View project →"
           />

@@ -6,7 +6,6 @@ import ContentCard from '@/components/content-card'
 export type Project = {
   title: string
   link: string
-  date?: string
   image: string | null
   description: string
   tags: string[]
@@ -117,7 +116,6 @@ export default function ProjectGrid({ projects }: { projects: Project[] }) {
             title={project.title}
             text={project.description}
             image={project.image}
-            date={project.date}
             tags={project.tags}
             cta="View project →"
           />
